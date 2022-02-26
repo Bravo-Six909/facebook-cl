@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 15px;
+    background-color: #3b3c3d;
+    border-radius: 10px;
+}
+
+.room{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #3498db;
+    font-size: 20px
+}
+
+.room > p{
+    margin-left: 10px;
+    color: #3498db;
+}
+
+.container > img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}

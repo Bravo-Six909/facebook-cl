@@ -1,0 +1,59 @@
+.container{
+    border-radius: 10px;
+    background-color: #3A3B3C;
+    padding: 20px;
+}
+
+.head{
+    display: flex;
+}
+
+.line{
+    margin: 13px 0;
+}
+
+.head > img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.input > input{
+    margin-left: 10px;
+    background-color: #717375;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    outline: none;
+    color: white;
+}
+
+.input > input::placeholder{
+    color: white;
+}
+
+.input{
+    width: 100%;
+}
+.icon{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    color: white ;
+}
+.iconContain{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.iconContain > p{
+    font-size: 18px;
+    color: #a4a7aa;
+}

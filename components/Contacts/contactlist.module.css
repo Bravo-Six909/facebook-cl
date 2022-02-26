@@ -1,0 +1,38 @@
+.tile{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.tiles{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.tiles > p{
+    margin-left: 10px;
+}
+
+.tiles >img{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.imgs{
+    position: relative;
+}
+
+.img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.online{
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: #0abe0a;
+}

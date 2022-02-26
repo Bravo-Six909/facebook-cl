@@ -1,0 +1,17 @@
+.tile{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.tile > p{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.icon{
+    height: 30px;
+    width: 30px;
+}

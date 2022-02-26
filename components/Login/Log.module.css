@@ -1,0 +1,151 @@
+.container{
+    display: flex;
+    height: 100vh;
+    background-color: #F0F2F5;
+}
+
+.logo{
+    flex: 0.5;
+    background-color: #F0F2F5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100vh;
+}
+
+.cont > img{
+    height: 100px;
+    margin-left: -27px;
+}
+
+.cont > p{
+    font-size: 2rem;
+}
+
+.forms{
+    flex: 0.5;
+    background-color: #F0F2F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.card{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;   
+    align-items: center; 
+    box-shadow: 0px 0px 5px 0px rgba(173, 167, 167, 0.75);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.card > input{
+    border: none;
+    padding: 12px;
+    border: 0.1px solid rgb(204, 200, 200);
+    border-radius: 5px;
+    font-size: 20px;
+    width: 100%;
+}
+
+
+.logbtn{
+    width: 100%;
+    background-color: white;
+    color: #1876F0;
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 14px #2466bb9b; 
+    transition-duration: 350ms;  
+}
+
+.logbtn:hover{
+    background-color: #1876F0;
+    color: white;
+    box-shadow: 4px 4px 4px #2466bb9b;
+}
+
+.logbtn > p{
+    margin-left: 14px;
+}
+
+.card > p{
+    text-align: center;
+    color: #1876F0;
+    cursor: pointer;
+}
+
+.card > p:hover{
+    text-decoration: underline;
+}
+
+.line{
+    background-color: rgb(224, 219, 219);
+    border: none;
+    width: 100%;
+    height: 1px;
+}
+
+.newbtn{
+    background-color: #42B72A;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 16px 8px;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.link{
+    margin-top: 20px;
+}
+
+.link > a{
+    font-weight: bold;
+}
+
+.link > a:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        flex-direction: column;
+    }
+    .cont{
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        height: 300px;
+    }
+    .cont > p{
+        text-align: center;
+        margin-bottom: 14px;
+    }
+  }
